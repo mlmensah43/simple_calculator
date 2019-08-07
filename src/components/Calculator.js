@@ -27,6 +27,7 @@ class Calculator extends React.Component {
         }
         
     }
+    
 
     inputDot(){
         const { display, waitingForOperand } = this.state
