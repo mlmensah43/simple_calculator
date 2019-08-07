@@ -3,9 +3,8 @@ import Slide from 'react-reveal/Slide';
 import './App.css';
 import Calculator from './components/Calculator';
 
-class App extends React.Component {
+function App() {
 
-  render(){
     return (
       <div>
         <div className="title">
@@ -16,7 +15,7 @@ class App extends React.Component {
         </div>
       </div>
     );
-    }
+
 }
 
 export default App;
