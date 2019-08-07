@@ -4,9 +4,11 @@ import '../css/Calculator.css';
 class Calculator extends React.Component {
     
     state={
+        value: null,
         display:'0',
         waitingForOperand: false,
-        operator: null
+        operator: null,
+        
     }
     
     inputDigit(digit){
@@ -82,12 +84,41 @@ class Calculator extends React.Component {
 
     }
 
-    performOperation(operator){
-        
+    performOperation(currOperator){
+        const { display, operator, value } = this.state
+
+        const next = parseFloat(display)
+
+        const operations = {
+            '/': (prev, next) => prev / next,
+            '*': (prev, next) => prev * next,
+            '+': (prev, next) => prev + next,
+            '-': (prev, next) => prev - next,
+            '=': (prev, next) => next
+
+        }
+
+        if(value == null){
+            //No previous value and operator key has been pressed
+            this.setState({
+                value: next
+            })
+        }
+
+        else if(operator){
+            const curr = value || 0
+            const solution = operations[operator](curr,next)
+            
+            this.setState({    
+                value: solution,
+                display: String(solution),
+                
+            })
+        }
 
         this.setState({
             waitingForOperand: true,
-            operator: operator
+            operator: currOperator,
         })
     }
 
