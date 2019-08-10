@@ -13,21 +13,26 @@ class Calculator extends React.Component {
     
     inputDigit(digit){
         const { display, waitingForOperand } = this.state
-
-        if(waitingForOperand){
-            this.setState({
-                display: String(digit),
-                waitingForOperand: false
-            })
-        }
-        else{
-            this.setState({ 
-                display: display === '0' ? String(digit) : display + digit
-            })
+        
+        if(display.length < 10){
+            if(waitingForOperand){
+                this.setState({
+                    display: String(digit),
+                    waitingForOperand: false
+                })
+            }
+            else{
+                if(digit.length === 9){
+                }
+                this.setState({ 
+                    display: display === '0' ? String(digit) : display + digit
+                })
+            }
         }
         
+        
     }
-    
+
 
     inputDot(){
         const { display, waitingForOperand } = this.state
@@ -132,13 +137,13 @@ class Calculator extends React.Component {
         return(
             <div className="calculator">
     
-                <div className="equation-display">...</div>
+                {/* <div className="equation-display">...</div> */}
     
                 <div className="display">{display}</div>
     
                 <div className="underline"><hr></hr></div>
     
-                <div class="grid-container">
+                <div className="grid-container">
     
                     <button className="button-key" onClick={() => this.clearDisplay()}>C</button>
                     <button className="button-key" onClick={() => this.toggleSign(7)}>±</button>
@@ -163,9 +168,11 @@ class Calculator extends React.Component {
                     <button className="button-key" onClick={() => this.inputDigit(0)}>0</button>
                     <button className="button-key" onClick={() => this.inputDot()}>.</button>
                     <button className="button-key" onClick={() => this.inputDelete()}>␡</button>
-                    <div class=" equal-sign"><button button className="button-key" onClick={() => this.performOperation('=')}>=</button></div>
+                    <div className=" equal-sign"><button button className="button-key" onClick={() => this.performOperation('=')}>=</button></div>
     
                 </div>
+                
+                
             </div>
         );
 

@@ -20,6 +20,7 @@
 }
 
 .display{
+    padding-top: 20%;
     text-align: end;
     padding-right: 10%;
     font-size: calc(20px + 3vmin);
@@ -63,3 +64,9 @@
 button:hover{
     color: rgba(255, 0, 0, 0.829);
 }
+
+@media only screen and (max-height: 400px) {
+    .calculator{
+        height: 76vh;
+    }
+  }

@@ -12,7 +12,9 @@ function App() {
             Simple Calculator
           </Slide>
           <Calculator></Calculator>
+          {/* <button className="dark-mode" onClick={() => this.toggleDarkMode()}><img className="moon" src={require("./moon.png")} alt="moon"></img></button> */}
         </div>
+
       </div>
     );
 
