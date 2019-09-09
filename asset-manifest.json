@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mlmensah43/mlmensah43.github.io/static/css/main.24d24bd6.chunk.css",
-    "main.js": "/mlmensah43/mlmensah43.github.io/static/js/main.287897e1.chunk.js",
-    "main.js.map": "/mlmensah43/mlmensah43.github.io/static/js/main.287897e1.chunk.js.map",
-    "runtime~main.js": "/mlmensah43/mlmensah43.github.io/static/js/runtime~main.b5294750.js",
-    "runtime~main.js.map": "/mlmensah43/mlmensah43.github.io/static/js/runtime~main.b5294750.js.map",
-    "static/js/2.d5472b87.chunk.js": "/mlmensah43/mlmensah43.github.io/static/js/2.d5472b87.chunk.js",
-    "static/js/2.d5472b87.chunk.js.map": "/mlmensah43/mlmensah43.github.io/static/js/2.d5472b87.chunk.js.map",
-    "index.html": "/mlmensah43/mlmensah43.github.io/index.html",
-    "precache-manifest.5dac3877ee65382d6185a02d89393802.js": "/mlmensah43/mlmensah43.github.io/precache-manifest.5dac3877ee65382d6185a02d89393802.js",
-    "service-worker.js": "/mlmensah43/mlmensah43.github.io/service-worker.js",
-    "static/css/main.24d24bd6.chunk.css.map": "/mlmensah43/mlmensah43.github.io/static/css/main.24d24bd6.chunk.css.map"
+    "main.css": "/static/css/main.24d24bd6.chunk.css",
+    "main.js": "/static/js/main.287897e1.chunk.js",
+    "main.js.map": "/static/js/main.287897e1.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.d5472b87.chunk.js": "/static/js/2.d5472b87.chunk.js",
+    "static/js/2.d5472b87.chunk.js.map": "/static/js/2.d5472b87.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c474d60eb182bd8d77d415e9a6a40c69.js": "/precache-manifest.c474d60eb182bd8d77d415e9a6a40c69.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.24d24bd6.chunk.css.map": "/static/css/main.24d24bd6.chunk.css.map"
   }
 }
