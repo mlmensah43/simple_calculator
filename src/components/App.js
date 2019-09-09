@@ -1,15 +1,13 @@
 import React from 'react';
-import Slide from 'react-reveal/Slide';
+// import Slide from 'react-reveal/Slide';
 import Calculator from './Calculator';
 import '../css/App.css';
 
 function App() {
 
     return (
-        <div className="title">
-          <Slide duration={1000} top cascade>
-            Simple Calculator
-          </Slide>
+        <div>
+          <div className="title">Simple Calculator</div>
           <Calculator></Calculator>
         </div>
     );
