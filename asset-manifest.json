@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/simply_calculator/static/css/main.24d24bd6.chunk.css",
-    "main.js": "/simply_calculator/static/js/main.73699b36.chunk.js",
-    "main.js.map": "/simply_calculator/static/js/main.73699b36.chunk.js.map",
-    "runtime~main.js": "/simply_calculator/static/js/runtime~main.3b04332a.js",
-    "runtime~main.js.map": "/simply_calculator/static/js/runtime~main.3b04332a.js.map",
-    "static/js/2.65aa1cca.chunk.js": "/simply_calculator/static/js/2.65aa1cca.chunk.js",
-    "static/js/2.65aa1cca.chunk.js.map": "/simply_calculator/static/js/2.65aa1cca.chunk.js.map",
-    "index.html": "/simply_calculator/index.html",
-    "precache-manifest.e99f3fbcf66f20260b59f2cdd1ad6a89.js": "/simply_calculator/precache-manifest.e99f3fbcf66f20260b59f2cdd1ad6a89.js",
-    "service-worker.js": "/simply_calculator/service-worker.js",
-    "static/css/main.24d24bd6.chunk.css.map": "/simply_calculator/static/css/main.24d24bd6.chunk.css.map"
+    "main.css": "/simple_calculator/static/css/main.24d24bd6.chunk.css",
+    "main.js": "/simple_calculator/static/js/main.f2c62b07.chunk.js",
+    "main.js.map": "/simple_calculator/static/js/main.f2c62b07.chunk.js.map",
+    "runtime~main.js": "/simple_calculator/static/js/runtime~main.1ebc270d.js",
+    "runtime~main.js.map": "/simple_calculator/static/js/runtime~main.1ebc270d.js.map",
+    "static/js/2.f37400de.chunk.js": "/simple_calculator/static/js/2.f37400de.chunk.js",
+    "static/js/2.f37400de.chunk.js.map": "/simple_calculator/static/js/2.f37400de.chunk.js.map",
+    "index.html": "/simple_calculator/index.html",
+    "precache-manifest.ea0516e56bd0830e5724014dc3b5cac8.js": "/simple_calculator/precache-manifest.ea0516e56bd0830e5724014dc3b5cac8.js",
+    "service-worker.js": "/simple_calculator/service-worker.js",
+    "static/css/main.24d24bd6.chunk.css.map": "/simple_calculator/static/css/main.24d24bd6.chunk.css.map"
   }
 }
