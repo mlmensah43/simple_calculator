@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/simply_calculator/static/css/main.24d24bd6.chunk.css",
-    "main.js": "/simply_calculator/static/js/main.287897e1.chunk.js",
-    "main.js.map": "/simply_calculator/static/js/main.287897e1.chunk.js.map",
+    "main.js": "/simply_calculator/static/js/main.73699b36.chunk.js",
+    "main.js.map": "/simply_calculator/static/js/main.73699b36.chunk.js.map",
     "runtime~main.js": "/simply_calculator/static/js/runtime~main.3b04332a.js",
     "runtime~main.js.map": "/simply_calculator/static/js/runtime~main.3b04332a.js.map",
-    "static/js/2.d5472b87.chunk.js": "/simply_calculator/static/js/2.d5472b87.chunk.js",
-    "static/js/2.d5472b87.chunk.js.map": "/simply_calculator/static/js/2.d5472b87.chunk.js.map",
+    "static/js/2.65aa1cca.chunk.js": "/simply_calculator/static/js/2.65aa1cca.chunk.js",
+    "static/js/2.65aa1cca.chunk.js.map": "/simply_calculator/static/js/2.65aa1cca.chunk.js.map",
     "index.html": "/simply_calculator/index.html",
-    "precache-manifest.bfcf9abfad58e4039e5760e1334aad1a.js": "/simply_calculator/precache-manifest.bfcf9abfad58e4039e5760e1334aad1a.js",
+    "precache-manifest.e99f3fbcf66f20260b59f2cdd1ad6a89.js": "/simply_calculator/precache-manifest.e99f3fbcf66f20260b59f2cdd1ad6a89.js",
     "service-worker.js": "/simply_calculator/service-worker.js",
     "static/css/main.24d24bd6.chunk.css.map": "/simply_calculator/static/css/main.24d24bd6.chunk.css.map"
   }
