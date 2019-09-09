@@ -6,7 +6,7 @@ class Calculator extends React.Component {
     state={
         value: null,
         display:'0',
-        waitingForOperand: false,
+        waitingForOperand: 0,
         operator: null,
         
     }
@@ -18,7 +18,7 @@ class Calculator extends React.Component {
             if(waitingForOperand){
                 this.setState({
                     display: String(digit),
-                    waitingForOperand: false
+                    waitingForOperand: 0
                 })
             }
             else{
@@ -41,14 +41,14 @@ class Calculator extends React.Component {
         if(waitingForOperand){
             this.setState({ 
                 display: '0.',
-                waitingForOperand: false
+                waitingForOperand: 0
             })
         }
         else{
             if(value.indexOf('.') === -1){
                 this.setState({ 
                     display: display + '.',
-                    waitingForOperand: false
+                    waitingForOperand: 0
                 })
             }
         }
@@ -123,7 +123,7 @@ class Calculator extends React.Component {
         }
 
         this.setState({
-            waitingForOperand: true,
+            waitingForOperand: 1,
             operator: currOperator,
         })
     }
@@ -136,8 +136,6 @@ class Calculator extends React.Component {
 
         return(
             <div className="calculator">
-    
-                {/* <div className="equation-display">...</div> */}
     
                 <div className="display">{display}</div>
     
@@ -168,7 +166,7 @@ class Calculator extends React.Component {
                     <button className="button-key" onClick={() => this.inputDigit(0)}>0</button>
                     <button className="button-key" onClick={() => this.inputDot()}>.</button>
                     <button className="button-key" onClick={() => this.inputDelete()}>␡</button>
-                    <div className=" equal-sign"><button button className="button-key" onClick={() => this.performOperation('=')}>=</button></div>
+                    <div className=" equal-sign"><button className="button-key" onClick={() => this.performOperation('=')}>=</button></div>
     
                 </div>
                 
