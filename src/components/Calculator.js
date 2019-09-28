@@ -114,12 +114,23 @@ class Calculator extends React.Component {
         else if(operator){
             const curr = value || 0
             const solution = operations[operator](curr,next)
+
+            if(!Number.isInteger(solution)){
+                this.setState({    
+                    value: solution,
+                    display: parseFloat(solution).toFixed(2),
+                    
+                })
+            }
             
-            this.setState({    
-                value: solution,
-                display: String(solution),
-                
-            })
+            else{
+                this.setState({    
+                    value: solution,
+                    display: String(solution),
+                    
+                })
+            }
+            
         }
 
         this.setState({

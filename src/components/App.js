@@ -1,15 +1,13 @@
 import React from 'react';
-// import Slide from 'react-reveal/Slide';
-import Calculator from './Calculator';
-import '../css/App.css';
+import { HashRouter as Router, Route} from "react-router-dom";
+import Home from './Home';
 
 function App() {
 
     return (
-        <div>
-          <div className="title">Simple Calculator</div>
-          <Calculator></Calculator>
-        </div>
+      <Router>
+          <Route path="/" exact component={Home} />
+      </Router>
     );
 
 }
